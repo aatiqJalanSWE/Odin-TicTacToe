@@ -1,0 +1,136 @@
+body {
+  align-items: center;
+  background-color: #addeff;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(32, 15, 65);
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#gameboard-container {
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  grid-template-rows: 150px 150px 150px;
+  margin-bottom: 50px;
+}
+
+.box0 {
+  align-items: center;
+  border-bottom: black solid 4px;
+  border-right: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+  justify-items: center;
+}
+.box1 {
+  align-items: center;
+  border-bottom: black solid 4px;
+  border-left: black solid 4px;
+  border-right: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box2 {
+  align-items: center;
+  border-bottom: black solid 4px;
+  border-left: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box3 {
+  align-items: center;
+  border-bottom: black solid 4px;
+  border-right: black solid 4px;
+  border-top: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box4 {
+  align-items: center;
+  border: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box5 {
+  align-items: center;
+  border-bottom: black solid 4px;
+  border-left: black solid 4px;
+  border-top: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box6 {
+  align-items: center;
+  border-right: black solid 4px;
+  border-top: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box7 {
+  align-items: center;
+  border-left: black solid 4px;
+  border-right: black solid 4px;
+  border-top: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+.box8 {
+  align-items: center;
+  border-left: black solid 4px;
+  border-top: black solid 4px;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+#winner {
+  align-items: center;
+  background-color: rgb(245, 236, 202);
+  border-radius: 10px;
+  border: black solid 5px;
+  color: rgb(32, 15, 65);
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+#resetBtn {
+  align-items: center;
+  background-color: rgb(245, 236, 202);
+  border-radius: 10px;
+  border: solid 5px;
+  color: rgb(32, 15, 65);
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  justify-content: center;
+  outline-style: none;
+  width: 200px;
+}
